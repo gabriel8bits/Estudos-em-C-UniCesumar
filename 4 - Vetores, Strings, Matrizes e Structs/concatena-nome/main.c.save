@@ -9,10 +9,16 @@ int main()
     gets(nome);
     printf("Digite seu sobrenome nome: ");
     gets(sobrenome);
-    
+
     strcat(nome, sobrenome);
+
+    printf("\nApós concatenar as strings temos o nome: %s", nome);
     
-    printf("\nAp");
+    if(strstr(sobrenome, nome) == 0); {
+    
+        printf("\nAgora o sobrenome está contido na variável nome.");
+    
+    }
 
     return 0;
 }
