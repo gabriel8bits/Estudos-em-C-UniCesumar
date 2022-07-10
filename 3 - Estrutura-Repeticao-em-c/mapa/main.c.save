@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int dividendo, divisor, quociente, resto;
+
+    printf("Informe o dividendo: ");
+    scanf("%d", &dividendo);
+
+    printf("Informe o divisor: ");
+    scanf("%d", &divisor);
+
+    quociente = dividendo / divisor;
+    resto = dividendo % divisor;
+
+    printf("O quociente da divisão é: %d", quociente);
+    return 0;
+}

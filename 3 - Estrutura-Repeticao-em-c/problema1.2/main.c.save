@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int par, impar, num;
+    
+    do
+    {
+        printf("Digite um numero qualquer: ");
+        scanf("%d", &num);
+        
+        if(num % 2 == 0) {
+            par++;
+        } else {
+            impar++;
+        }
+    }   
+    while(num != 0);
+    
+    printf("A quantidade de numeros pares foi: %d", par);
+    printf("", impar)
+    
+    return 0;
+}

@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int num, i;
+
+    printf("Informe um numero: ");
+    scanf("%d", &num;)
+    
+    fat = 1;
+    
+    for(i = 0; i <= num; i++) {
+        fat = fat * i;
+    }
+    
+    printf("O fatorial de %d")
+    
+    return 0;
+}

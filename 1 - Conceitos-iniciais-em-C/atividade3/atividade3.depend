@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1655087461 source:/home/gabriel/Documentos/Estudos-em-C-UniCesumar/Conceitos-iniciais-em-C/atividade3/main.c
+	<stdio.h>
+	<stdlib.h>
+

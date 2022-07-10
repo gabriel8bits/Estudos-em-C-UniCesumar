@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1655413215 source:/home/gabriel/Documentos/Estudos-em-C-UniCesumar/Estrutura-condicional-em-C/problema4/main.c
+	<stdio.h>
+	<stdlib.h>
+
