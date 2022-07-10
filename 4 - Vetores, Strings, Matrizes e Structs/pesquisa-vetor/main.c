@@ -28,9 +28,9 @@ int main()
     }
 
     if (acha == 1) {
-        printf("\nO elemente %d foi achado na posição %d.", busca, i);
+        printf("\nO elemento %d foi achado na posição %d.", busca, i);
     } else {
-        printf("\nO elemente não foi encontrado.\n");
+        printf("\nO elemento não foi encontrado.\n");
     }
 
     return 0;
