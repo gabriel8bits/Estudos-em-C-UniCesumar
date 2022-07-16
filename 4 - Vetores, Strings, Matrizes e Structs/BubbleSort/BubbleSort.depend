@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1657402399 source:/home/gabriel/Documentos/Estudos-em-C-UniCesumar/4 - Vetores, Strings, Matrizes e Structs/BubbleSort/main.c
+	<stdio.h>
+	<stdlib.h>
+

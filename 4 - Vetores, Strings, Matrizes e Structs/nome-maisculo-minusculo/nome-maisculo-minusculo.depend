@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1657988369 source:/home/gabriel/Documentos/Estudos-em-C-UniCesumar/4 - Vetores, Strings, Matrizes e Structs/nome-maisculo-minusculo/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
