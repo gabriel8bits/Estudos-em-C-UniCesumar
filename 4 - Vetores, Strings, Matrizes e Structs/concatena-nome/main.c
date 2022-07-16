@@ -7,17 +7,15 @@ int main()
 
     printf("Digite seu primeiro nome: ");
     gets(nome);
-    printf("Digite seu sobrenome nome: ");
+
+    printf("Digite seu sobrenome: ");
     gets(sobrenome);
 
     strcat(nome, sobrenome);
+    printf("\nApós concatenar as strings temos que o nome: %s", nome);
 
-    printf("\nApós concatenar as strings temos o nome: %s\n", nome);
-
-    if(strstr(sobrenome, nome) == 0); {
-
+    if(strstr(sobrenome, nome) == 0) {
         printf("\nAgora o sobrenome está contido na variável nome.\n");
-
     }
 
     return 0;
