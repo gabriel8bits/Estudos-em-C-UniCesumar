@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define TAM 20
+#define TAM 1
 
 struct livro {
 
@@ -41,7 +41,7 @@ int main()
 
             for (i=0;i<TAM;i++) {
 
-                printf("Digite o códico do livro da %d posição: ", i+1);
+                printf("\nDigite o códico do livro da %d posição: ", i+1);
                 scanf("%d", &ficha[i].codico);
                 fflush(stdin);
 
@@ -68,6 +68,24 @@ int main()
                 printf("\n");
 
             }
+
+        } else {
+
+			if (op == 2) {
+
+				system ("clear");
+
+				for (i=0;i<TAM;i++) {
+
+					printf("\nCódico: %d\n", ficha[i].codico);
+					printf("Título: %s\n", ficha[i].titulo);
+					printf("Autor: %s\n", ficha[i].autor);
+					printf("Área: %s\n", ficha[i].area);
+					printf("Ano: %d\n", ficha[i].ano);
+					printf("Editora: %s\n", ficha[i].editora);
+
+				}
+			}
         }
     }
 
